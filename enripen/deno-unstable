@@ -1,0 +1,10 @@
+#!/bin/zsh
+
+# Add your flag here
+additional_flag="--unstable"
+
+# Path to the original executable
+original_executable="/opt/homebrew/bin/deno"
+
+# Pass all the arguments to the original executable along with the additional flag
+"$original_executable" "$additional_flag" "$@"

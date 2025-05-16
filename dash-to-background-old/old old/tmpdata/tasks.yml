@@ -1,0 +1,4 @@
+- name: test
+  command: echo test
+- name: test2
+  command: echo test

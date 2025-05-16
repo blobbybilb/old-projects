@@ -1,0 +1,15 @@
+{
+  "lock": false,
+  "tasks": {
+    "start": "deno run -A --unstable --watch=static/,routes/ dev.ts",
+    "deploy": "deployctl deploy --project=enripen main.ts"
+  },
+  "importMap": "./import_map.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "preact"
+  },
+  "fmt": {
+    "semiColons": false
+  }
+}

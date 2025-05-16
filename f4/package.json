@@ -1,0 +1,14 @@
+{
+  "name": "@blobbybilb/f4",
+  "keywords": ["framework", "typescript", "simple", "web"],
+  "description": "F4 - The Fast Friendly Functionality Framework. The simplest fairly-featureful web framework, with a no-config TypeScript SQLite interface, simple router based on Hono, ",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "license": "LGPL-3.0-or-later",
+  "version": "0.1.1"
+}

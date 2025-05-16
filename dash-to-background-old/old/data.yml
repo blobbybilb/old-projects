@@ -1,0 +1,10 @@
+last_id: "2"
+commands:
+- id: "1"
+  command: echo 'hello'
+  restart: false
+  status: running
+- id: "2"
+  command: echo 'world'
+  restart: false
+  status: running
